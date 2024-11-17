@@ -1,0 +1,20 @@
+import FacilityContent from "./FacilityContent";
+import facilityData from "../utils/facilityData";
+
+const Facility = () => {
+  return (
+    <div>
+      <div className="container">
+        <div className="row">
+          <div className="col d-flex justify-content-between mt-5">
+            {facilityData.map((value, index) => (
+              <FacilityContent detail={value} key={index} />
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Facility;
