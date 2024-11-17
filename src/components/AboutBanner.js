@@ -27,7 +27,7 @@ const AboutBanner = () => {
             </p>
           </div>
           <div className="col-md-6">
-            <img src="/images/girls.png" />
+            <img src="/images/girls.png" className="girls" />
           </div>
         </div>
       </div>
