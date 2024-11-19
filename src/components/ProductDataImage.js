@@ -4,7 +4,7 @@ import ProductDataContent from "./ProductDataContent";
 const ProductDataImage = () => {
   return (
     <div>
-      <div className="container-fluid">
+      <div className="container">
         <div className="row">
           <div className="col-md-2 d-flex flex-column justify-content-between">
             <img src="/images/image1.png" alt="img" className="img" />

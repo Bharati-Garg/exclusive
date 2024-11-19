@@ -6,7 +6,7 @@ const Facility = () => {
     <div>
       <div className="container">
         <div className="row">
-          <div className="col facility mt-5">
+          <div className="col facility mt-5 mb-5">
             {facilityData.map((value, index) => (
               <FacilityContent detail={value} key={index} />
             ))}
